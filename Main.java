@@ -5,5 +5,8 @@ public class Main{
         System.out.println("Date::"+new Date());
         System.out.println("hello::");
         System.out.println("after commiting::");
+
+        Student student = new Student();
+        student.hello();
     }
 }
